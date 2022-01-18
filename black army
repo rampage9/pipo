@@ -1,0 +1,6 @@
+[user@rampage9 ~]$ vi template.sed
+/^#<virtuelhost/,/^#<\/virtualhost/ {
+S/^#//
+W/home/user/template
+}
+[user@rampage9 ~] $
